@@ -7,11 +7,14 @@ requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=6.29.5",
     "kagglehub>=0.3.12",
+    "math",
     "matplotlib>=3.10.3",
     "nbstripout>=0.8.1",
+    "openpyxl",
     "pandas>=2.3.0",
     "scikit-learn>=1.7.0",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.5",
 ]
 
 [build-system]
